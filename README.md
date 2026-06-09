@@ -5,7 +5,7 @@
 
 ---
 
-## ✨ Tổng quan
+##  Tổng quan
 
 Hệ thống quản lý bãi gửi xe toàn diện với **5 vai trò** (Driver, Staff, Security, Manager, Admin), tích hợp **AI nhận dạng biển số**, **thanh toán VNPAY**, **Digital Twin 3D**, và **real-time WebSocket**.
 
@@ -13,18 +13,18 @@ Hệ thống quản lý bãi gửi xe toàn diện với **5 vai trò** (Driver,
 
 | Tính năng | Công nghệ |
 |-----------|-----------|
-| 🤖 AI nhận dạng biển số xe | Tesseract.js v4 (OCR trên trình duyệt) |
-| 💳 Thanh toán online | VNPAY Sandbox |
-| 🗺️ Digital Twin 3D bãi xe | Three.js / React Three Fiber |
-| ⚡ Cập nhật slot real-time | WebSocket (STOMP) |
-| ⏰ Tự động hủy giữ chỗ hết hạn | Spring @Scheduled (Background Job) |
-| 🔒 Phân quyền 5 vai trò | Spring Security + JWT |
-| 🚨 SOS khẩn cấp | Redis Pub/Sub + WebSocket |
-| 📊 Dashboard thống kê | Dữ liệu real-time từ DB |
+| AI nhận dạng biển số xe | Tesseract.js v4 (OCR trên trình duyệt) |
+| Thanh toán online | VNPAY Sandbox |
+| Digital Twin 3D bãi xe | Three.js / React Three Fiber |
+| Cập nhật slot real-time | WebSocket (STOMP) |
+| Tự động hủy giữ chỗ hết hạn | Spring @Scheduled (Background Job) |
+| Phân quyền 5 vai trò | Spring Security + JWT |
+| SOS khẩn cấp | Redis Pub/Sub + WebSocket |
+| Dashboard thống kê | Dữ liệu real-time từ DB |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tầng | Công nghệ |
 |------|-----------|
@@ -40,7 +40,7 @@ Hệ thống quản lý bãi gửi xe toàn diện với **5 vai trò** (Driver,
 
 ---
 
-## 🚀 Cách chạy project
+## Cách chạy project
 
 ### Yêu cầu
 - **Java 17+** (JDK)
@@ -85,7 +85,7 @@ npm run dev
 
 ---
 
-## 📁 Cấu trúc project
+## Cấu trúc project
 
 ```
 ParkingSystem_Personal/
@@ -93,7 +93,7 @@ ParkingSystem_Personal/
 │   └── src/main/java/.../backend/
 │       ├── entity/                  ← 16 bảng DB (User, Zone, ParkingSession, Payment...)
 │       ├── repository/              ← JPA Repository interfaces (16 files)
-│       ├── service/                 ← Logic nghiệp vụ ⭐ (12 files)
+│       ├── service/                 ← Logic nghiệp vụ  (12 files)
 │       │   ├── ParkingSessionService    ← Core: Check-in/out + VNPAY + WebSocket
 │       │   ├── ReservationService       ← Đặt giữ chỗ zone
 │       │   ├── ReservationExpiryScheduler ← Background Job: tự hủy reservation hết hạn
@@ -127,7 +127,7 @@ ParkingSystem_Personal/
 
 ---
 
-## 🔐 Phân quyền 5 vai trò
+## Phân quyền 5 vai trò
 
 | Role | Dashboard | Chức năng chính |
 |------|-----------|----------------|
@@ -139,7 +139,7 @@ ParkingSystem_Personal/
 
 ---
 
-## 📖 Tài liệu
+## Tài liệu
 
 | File | Mô tả |
 |------|-------|
@@ -150,7 +150,7 @@ ParkingSystem_Personal/
 
 ---
 
-## 👤 Tác giả
+## Tác giả
 
 **Trần Nguyễn Minh An** 
 FPT University HCM — Khoa Công nghệ Thông tin  
