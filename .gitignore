@@ -32,3 +32,14 @@ frontend/.cache/
 
 # Logs
 *.log
+
+# Personal study notes
+Assessment01_*.md
+DIAGRAM_PRESENTATION.md
+PROJECT_STRUCTURE_TREE_EXPLAINED.md
+SCRIPT_TRAO_DOI_VOI_GIANG_VIEN.md
+SMARTPARKING_V2_REQUIREMENTS.md
+Script_Thuyet_Trinh.md
+task.md
+docs/
+ngrok/
