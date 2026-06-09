@@ -152,7 +152,7 @@ ParkingSystem_Personal/
 
 ## 👤 Tác giả
 
-**Trần Nguyễn Minh An** — MSSV: SE XXXXX  
+**Trần Nguyễn Minh An** 
 FPT University HCM — Khoa Công nghệ Thông tin  
-📧 Email: antran19@example.com  
+📧 Email: trannguyenminhan2005@gmail.com 
 🔗 GitHub: [github.com/antran19](https://github.com/antran19)
