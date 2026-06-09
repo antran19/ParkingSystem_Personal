@@ -1,4 +1,4 @@
-# SmartParking V2 — Hệ thống Quản lý Bãi Gửi xe Thông minh
+# SmartParking — Hệ thống Quản lý Bãi Gửi xe Thông minh
 
 > **Dự án cá nhân** | Trần Nguyễn Minh An  
 > **Mã đề tài:** SU26SWP08 | **Môn:** SWP391 | **FPT University HCM** | **Summer 2026**
